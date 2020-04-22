@@ -1,0 +1,31 @@
+digraph FamilyTree {
+rankdir=LR;
+size="8.5"
+node [shape=rectangle] [color=black];
+"Dumbella (Duck) Duck" -> "Louie Duck" [label="mother"];
+"Dumbella (Duck) Duck" -> "Huey Duck" [label="mother"];
+"Dumbella (Duck) Duck" -> "Dewey Duck" [label="mother"];
+"Grandma Duck" -> "Sally (Duck) Von Drake" [label="mother"];
+"Grandma Duck" -> "Quackmore Duck" [label="mother"];
+"Grandma Duck" -> "Fanny (Duck) Goose" [label="mother"];
+"Elsa (Duck) Allen" -> "June" [label="mother"];
+"Elsa (Duck) Allen" -> "May" [label="mother"];
+"Elsa (Duck) Allen" -> "April" [label="mother"];
+"Mark Duck" -> "Louie Duck" [label="father"];
+"Mark Duck" -> "Huey Duck" [label="father"];
+"Mark Duck" -> "Dewey Duck" [label="father"];
+"Grandpa Duck" -> "Sally (Duck) Von Drake" [label="father"];
+"Grandpa Duck" -> "Quackmore Duck" [label="father"];
+"Grandpa Duck" -> "Fanny (Duck) Goose" [label="father"];
+"Quackmore Duck" -> "Dumbella (Duck) Duck" [label="father"];
+"Quackmore Duck" -> "Donald Fauntleroy Duck" [label="father"];
+"Cia (McDuck) Gander" -> "Gladstone Gander" [label="mother"];
+"Liam Miller" -> "June" [label="father"];
+"Liam Miller" -> "May" [label="father"];
+"Liam Miller" -> "April" [label="father"];
+"Ian Gander" -> "Gladstone Gander" [label="father"];
+"Fanny (Duck) Goose" -> "Gus Goose" [label="mother"];
+"Hortense (McDuck) Duck" -> "Dumbella (Duck) Duck" [label="mother"];
+"Hortense (McDuck) Duck" -> "Donald Fauntleroy Duck" [label="mother"];
+"Abe Goose" -> "Gus Goose" [label="father"];
+}
